@@ -1,0 +1,1 @@
+function colorBox(){var o=$("div"),a=Math.floor(Math.random()*o.length),c=Math.floor(Math.random()*(o.length-a))+a+1;c===o.length&&(c=void 0),o.css("background",""),c?o.slice(a,c).css("background","yellow"):o.slice(a).css("background","yellow"),$("span").text("change again?")}$("button").click(colorBox);
